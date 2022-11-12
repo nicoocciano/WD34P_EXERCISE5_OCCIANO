@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+body{
+    background: url("two.gif") repeat-x;
+    background-size: cover;
+}
+
+
+div{
+    background: rgba(255, 63, 108, 1 );
+    color: rgb(7, 4, 4);
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 10px;
+    word-spacing: 50px;
+}
+.greenBackground{
+    background: #D8D166;
+    color: yellow;
+}
+#sampleId{
+        color: purple;
+
+}
+.sampleBox{
+    background: blue;
+    margin: 100px 200px 40px;
+    padding: 40px 20px 30px 40px;
+    border: 10px solid rgb(161, 97, 85); 
+   
+    border-radius: 100px;
+    -webkit-box-shadow: -29px 4px 119px 39px rgba(0,0,0,0.75);
+    -moz-box-shadow: -29px 4px 119px 39px rgba(0,0,0,0.75);
+    box-shadow: -29px 4px 119px 39px rgba(0,0,0,0.75);
+    font-size: 30px;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    text-align: right;
+
+}
+.overflowSample{
+    width: 200px;
+    height: 500px;
+    overflow: scroll;
+    text-indent: 40px;
+}
+
+
